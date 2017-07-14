@@ -1,0 +1,14 @@
+{
+  "name": "download",
+  "version": "1.0.0",
+  "description": "simple download source from website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "download"
+  ],
+  "author": "albert",
+  "license": "ISC"
+}
