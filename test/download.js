@@ -9,7 +9,7 @@ const picopts = {
     secure:true,
     filename:'pre.jpg',
     port:'443',
-    dest:'./fixtures/dest'    
+    dest:'/test/fixtures/dest'    
 }
 
 describe('download file right',function(){
@@ -18,10 +18,9 @@ describe('download file right',function(){
 
 			download(picopts).then(()=>{
 				
-				let type = fs.statSync(picopts.dest);
+				let type = fs.statSync('test/fixtures/dest/pre.jpg');
 
-				console.log(type)
-
+				expect(type.isFile()).toBe(true);
 
 
 				done();

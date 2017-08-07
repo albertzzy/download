@@ -1,14 +1,15 @@
-##status
+## status
 
-##install
+## install
 ```bash
 npm install download
 
 ```
 
-##usage 
+## usage 
 
-···js
+```js
+
 const download = require('download')
 
 download(options).then(()=>{
@@ -17,4 +18,4 @@ download(options).then(()=>{
   console.log(e)
 })
 
-···
+```
