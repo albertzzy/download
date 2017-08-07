@@ -1,10 +1,10 @@
-const download = require('../index')
+const download = require('../lib/index')
 
 const options = {
-    hostname:'github.com',
-    reqUrl:'/kevva/download/blob/master/index.js',
+    hostname:'gw.alicdn.com',
+    reqUrl:'/tfs/TB1sakpSpXXXXaAXFXXXXXXXXXX-900-500.jpg',
     secure:true,
-    filename:'dl.html',
+    filename:'pre.jpg',
     port:'443',
     dest:'./dest'    
 }
