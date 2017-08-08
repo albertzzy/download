@@ -1,4 +1,6 @@
-## status
+<h1 align="center">
+    download
+</h1>
 
 ## install
 ```bash
