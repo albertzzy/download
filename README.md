@@ -14,7 +14,7 @@ npm install download-helper
 
 ```js
 
-const download = require('download')
+const download = require('download-helper')
 
 download(options).then(()=>{
     console.log('success')
