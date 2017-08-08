@@ -1,6 +1,7 @@
 <h1 align="center">
     download
 </h1>
+[![Build Status](https://travis-ci.org/albertzzy/download.svg?branch=master)](https://travis-ci.org/albertzzy/download)
 
 ## install
 ```bash
