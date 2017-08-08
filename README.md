@@ -1,11 +1,12 @@
 <h1 align="center">
-    download
+    download-helper
 </h1>
+
 [![Build Status](https://travis-ci.org/albertzzy/download.svg?branch=master)](https://travis-ci.org/albertzzy/download)
 
 ## install
 ```bash
-npm install download
+npm install download-helper
 
 ```
 
