@@ -1,5 +1,5 @@
 {
-  "name": "download",
+  "name": "downloader",
   "version": "1.0.0",
   "description": "simple download source from website",
   "main": "index.js",
